@@ -87,7 +87,7 @@ fun ParamScreen(navController: NavHostController) {
             // Botón de regreso personalizado
             OutlinedButton(
                 onClick = { navController.popBackStack() },
-                modifier = Modifier.padding(16.dp),
+                modifier = Modifier.padding(16.dp).width(200.dp),
                 colors = ButtonDefaults.outlinedButtonColors(
                     containerColor = Color.White, // Fondo blanco
                     contentColor = Color(0xFF800080) // Letras moradas (Color Púrpura)

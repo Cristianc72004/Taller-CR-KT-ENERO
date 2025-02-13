@@ -74,5 +74,3 @@ fun CheckBoxScreen(navController: NavController) {
         }
     }
 }
-
-
